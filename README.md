@@ -1,33 +1,17 @@
-# 🤖 Copilot Chat FAQ
+# TT Environment Mapping Guidelines
 
-## What is Microsoft Copilot?
-Microsoft Copilot is an AI assistant built into Microsoft 365 apps (Word, Excel, Outlook, Teams). It helps you create content, generate summaries, automate tasks, and analyze data using natural language.
+## When is Motorway Coding Required?
+If Motorway coding is required, then:
+- **Controlled Access (CA)** = Yes  
+- **Limited Access (LA)** = Yes  
+- **Route Type** = RT2
 
-## What is Copilot Studio?
-Copilot Studio is a no-code/low-code platform for building your own AI Copilots. You can design conversation flows, integrate workflows, and connect to custom data sources.
+RT2 must be coded **only** on sections that are Motorways (i.e., CA = Yes).
 
-## What is the difference between Copilot and Copilot Studio?
-Copilot (Microsoft 365) is an AI assistant embedded in Microsoft apps like Excel and Word.  
-Copilot Studio is a platform that lets you build and deploy your own customized Copilots.
+## Geometry Guidelines for TT Environments
+In TT environments (e.g., `WEU_TT_BW`), the geometry must be **highly accurate** so that it aligns with the **real road surface**.
 
-## Is Copilot secure and private?
-Yes. Copilot follows Microsoft’s enterprise-grade security and compliance framework.
+- This alignment is visible best on HD level with LiDAR data.
+- However, it should be applied as **precisely as possible** even at the SD level.
 
-## What apps does Copilot work with?
-Copilot integrates with Outlook, Excel, Word, Teams, Power Platform, SharePoint, and custom APIs using Power Automate.
-
-## Can I build a Copilot without coding?
-Yes! Copilot Studio offers a visual, drag-and-drop designer that requires no code to build conversations and workflows.
-
-## What are topics in Copilot Studio?
-Topics are predefined conversational paths that help the Copilot respond to user intents, such as “reset password” or “track order”.
-
-## What role does Power Automate play?
-Power Automate connects your Copilot to backend systems. It lets you perform actions like sending emails, calling APIs, or updating SharePoint/Dataverse records.
-
-## Can I connect to SharePoint or Excel?
-Yes. You can use Power Automate connectors to read and write from SharePoint Lists, Excel files, and other Microsoft 365 sources.
-
-## How do I publish and share my Copilot?
-You can
-
+Try to ensure the geometry lies exactly within the real-world road boundaries.
